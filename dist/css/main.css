@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #19a2ae;
+  overflow: hidden;
+  min-height: 100vh;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 20vw, left 50vw top 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.titles {
+  color: #2d3248;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.profile-text {
+  color: #6a6f81;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.stats-text {
+  color: #969696;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+
+.bg-image {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.main {
+  width: 90%;
+  max-width: 25rem;
+  border-radius: 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.main__image {
+  height: 4rem;
+  width: 100%;
+}
+
+.main__image-image {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: relative;
+  left: 0;
+  bottom: 90%;
+}
+
+.main__info--age {
+  color: #6a6f81;
+  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.main__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  margin-top: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid #969696;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.footer__text {
+  font-size: 1rem;
+}
+
+.footer__link {
+  color: inherit;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+  color: #2d3248;
+}
+/*# sourceMappingURL=main.css.map */

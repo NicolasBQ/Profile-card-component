@@ -1,0 +1,19 @@
+$primary-color: hsl(185, 75%, 39%);
+$accent-color: hsl(229, 23%, 23%);
+$profile-color: hsl(227, 10%, 46%);
+$stats-color: hsl(0, 0%, 59%);
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin profile-text {
+    color: $profile-color;
+    font-size: 1rem;
+    font-weight: 400;
+}
